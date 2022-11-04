@@ -1,0 +1,8 @@
+img {/*Edicao da imagem ex4_2.jpg*/
+    float: left;
+    height:300px;
+    width:300px;
+}
+h1{/*Edicao de tag H1 com um sublinhado*/
+    border-bottom-style: inset;
+}

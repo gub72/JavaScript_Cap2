@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X_UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale-1">
+        <title>Exemplo 4_1</title>
+    </head>
+    <body>
+        <h1>Programa Situacao do Aluno</h1>
+        <form>
+            <p>Nome do Aluno
+                <input type="text" id="inNome"><!--Entrada de dados(Nome do Aluno)-->
+            </p>
+            <p>1 nota: 
+                <input type="number" min="0.0" max="10.0" step="0.1" id="inNota1"><!--Entrada de dados(Nota 1 do Aluno)-->
+            </p> 
+            <p>2 nota:
+                <input type="number" min="0.0" max="10.0" step="0.1" id="inNota2"><!--Entrada de dados(Nota 2 do Aluno)-->
+            </p>
+            <input type="submit" value="Exibir Media e Situacao"><!--Processamento dos dados (Botao exebir media e se o aluno foi reprovado ou aprovado)-->
+            <h4></h4> <!--Mostra media-->
+            <h3></h3> <!--Mostra se o aluno foi aprovado ou reprovado-->
+        </form>
+        <script src="js/ex4_1.js"></script>
+    </body>
+</html>
